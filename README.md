@@ -93,13 +93,7 @@ according to the roles.
 ![Screenshot_from_2022-06-14_16-13-43](https://user-images.githubusercontent.com/106664987/175339344-092f0114-9aad-441e-8d80-7712b3d111af.png)
 
 
-```javascript
-import Component from 'my-project'
 
-function App() {
-  return <Component />
-}
-```
 
 ## Project Logo
 ![wafo_logo](https://user-images.githubusercontent.com/106664987/175323211-081f8529-be2a-4ea9-9b4f-d536bccf422b.png)
