@@ -67,12 +67,7 @@ due to too much production or not selling, which only increases the amount of fo
 
 ## Installation
 
-Install my-project with npm
 
-```bash
-  npm install my-project
-  cd my-project
-```
     
 ## Usage/Examples
 
@@ -94,6 +89,7 @@ according to the roles.
 ![Screenshot_from_2022-06-14_16-13-43](https://user-images.githubusercontent.com/106664987/175338959-7265c1a8-1c14-4a30-a09c-ad0edb362c0b.png)
 
 - Merchant can adjust the number of stocks they sell for each item
+
 ![Screenshot_from_2022-06-14_16-13-43](https://user-images.githubusercontent.com/106664987/175339344-092f0114-9aad-441e-8d80-7712b3d111af.png)
 
 
@@ -111,27 +107,4 @@ function App() {
 
 ## API Reference
 
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
 
