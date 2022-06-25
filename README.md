@@ -82,15 +82,15 @@ according to the roles.
 ### Features for Merchant User
 - Merchant can add items to the market
 
-![Screenshot_from_2022-06-14_16-13-43](https://user-images.githubusercontent.com/106664987/175338413-22228101-9a16-4f34-bb71-4fbdd75c3f9d.png)
+![Screenshot_from_2022-06-15_17-49-06](https://user-images.githubusercontent.com/106664987/175759417-e9dd5329-9f44-4444-bfa7-c241caa90727.png)
 
 -  Merchant can see all the items they sell
 
-![Screenshot_from_2022-06-14_16-13-43](https://user-images.githubusercontent.com/106664987/175338959-7265c1a8-1c14-4a30-a09c-ad0edb362c0b.png)
+![Screenshot_from_2022-06-15_17-49-41](https://user-images.githubusercontent.com/106664987/175759458-a5eab9a4-f842-45df-b605-ee61bbf48bfb.png)
 
 - Merchant can adjust the number of stocks they sell for each item
 
-![Screenshot_from_2022-06-14_16-13-43](https://user-images.githubusercontent.com/106664987/175339344-092f0114-9aad-441e-8d80-7712b3d111af.png)
+![Screenshot_from_2022-06-15_18-26-09 stock merchant](https://user-images.githubusercontent.com/106664987/175759349-1c8f4355-0773-4bdd-9a17-9ca66b2014d2.png)
 
 
 
