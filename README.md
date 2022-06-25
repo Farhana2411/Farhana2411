@@ -81,14 +81,33 @@ according to the roles.
 
 ### Features for Merchant User
 - Merchant can add items to the market
+```
+  def create_item
+    @merchant.create_item(item_params)
+    success_message = "success create item for merchant id #{@merchant.id}"
+    success_response({ message: success_message }, :created)
+  end
+```
 
 ![Screenshot_from_2022-06-15_17-49-06](https://user-images.githubusercontent.com/106664987/175759417-e9dd5329-9f44-4444-bfa7-c241caa90727.png)
 
 -  Merchant can see all the items they sell
+```
+def item_params
+  params.permit(:name, :description, :price, :stock, :image_url, :served_at, :expired_at)
+end
+```
 
 ![Screenshot_from_2022-06-15_17-49-41](https://user-images.githubusercontent.com/106664987/175759458-a5eab9a4-f842-45df-b605-ee61bbf48bfb.png)
 
 - Merchant can adjust the number of stocks they sell for each item
+```
+def update_item_stock
+    @merchant.update_item_stock(params[:item_id], params[:stock])
+    success_message = "success update item stock for merchant id #{@merchant.id}"
+    success_response({ message: success_message }, :ok)
+  end
+```
 
 ![Screenshot_from_2022-06-15_18-26-09 stock merchant](https://user-images.githubusercontent.com/106664987/175759349-1c8f4355-0773-4bdd-9a17-9ca66b2014d2.png)
 
