@@ -69,53 +69,8 @@ due to too much production or not selling, which only increases the amount of fo
 
 
     
-## Usage/Examples
-
-### Login and Registration
-
-Users have to register and select a role; (admin, merchant, or cutomer).
-After that, users can login to the apps and access the available features
-according to the roles.
-
-![Screenshot_from_2022-06-14_16-13-43](https://user-images.githubusercontent.com/106664987/175337456-2606e5f6-c693-4f63-acee-c921d2c01456.png)
-
-### Features for Merchant User
-- Merchant can add items to the market
-```
-  def create_item
-    @merchant.create_item(item_params)
-    success_message = "success create item for merchant id #{@merchant.id}"
-    success_response({ message: success_message }, :created)
-  end
-```
-
-![Screenshot_from_2022-06-15_17-49-06](https://user-images.githubusercontent.com/106664987/175759417-e9dd5329-9f44-4444-bfa7-c241caa90727.png)
-
--  Merchant can see all the items they sell
-```
-def item_params
-  params.permit(:name, :description, :price, :stock, :image_url, :served_at, :expired_at)
-end
-```
-
-![Screenshot_from_2022-06-15_17-49-41](https://user-images.githubusercontent.com/106664987/175759458-a5eab9a4-f842-45df-b605-ee61bbf48bfb.png)
-
-- Merchant can adjust the number of stocks they sell for each item
-```
-def update_item_stock
-    @merchant.update_item_stock(params[:item_id], params[:stock])
-    success_message = "success update item stock for merchant id #{@merchant.id}"
-    success_response({ message: success_message }, :ok)
-  end
-```
-
-![Screenshot_from_2022-06-15_18-26-09 stock merchant](https://user-images.githubusercontent.com/106664987/175759349-1c8f4355-0773-4bdd-9a17-9ca66b2014d2.png)
-
-
-
-
 ## Project Logo
-![wafo_logo](https://user-images.githubusercontent.com/106664987/175323211-081f8529-be2a-4ea9-9b4f-d536bccf422b.png)
+![logo wafo](https://user-images.githubusercontent.com/106664987/176475530-0538d94a-65dc-4bc9-a6dd-f98fe39997bc.jpeg)
 
 
 ## API Reference
