@@ -68,7 +68,9 @@ due to too much production or not selling, which only increases the amount of fo
 ## Installation
 
 
-    
+## Usage
+This application provides some instructions to access the features for each roles; admin, customer, and merchant. User may refer to the [API documentation](https://documenter.getpostman.com/view/21640459/UzJETzNp) of this application for the detail features.
+
 ## Project Logo
 ![logo wafo](https://user-images.githubusercontent.com/106664987/176475530-0538d94a-65dc-4bc9-a6dd-f98fe39997bc.jpeg)
 
