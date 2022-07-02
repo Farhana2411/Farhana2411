@@ -74,6 +74,8 @@ This application provides some instructions to access the features for each role
 ## Project Logo
 ![logo wafo](https://user-images.githubusercontent.com/106664987/176475530-0538d94a-65dc-4bc9-a6dd-f98fe39997bc.jpeg)
 
+## Project Status
+This project still in progress by the WAFO team. Some features may be available once the team has finish creating the program.
 
 ## API Reference
 
