@@ -42,7 +42,7 @@ due to too much production or not selling, which only increases the amount of fo
 * Customer can add an item to the cart
 * Customer can edit item from cart
 * Customer can remove an item from cart
-* Customer can adjust the number of orders for each item
+* Customer can adjust the quantity of orders for each item
 * Customer can select which merchant they want to create the payment
 * Customer can find Merchant location in map
 * Customer can update their email and password
@@ -66,7 +66,7 @@ due to too much production or not selling, which only increases the amount of fo
 
 
 ## Installation
-
+The programming language used to run the project is Ruby on Rails on Windows 10 version ... with PostgreSQL as the database. The step of installation of Ruby on Rails and setting up PostgreSQL on windows can be seen at [gorails.com](https://gorails.com/setup/windows/10).
 
 ## Usage
 This application provides some instructions to access the features for each roles; admin, customer, and merchant. User may refer to the [API documentation](https://documenter.getpostman.com/view/21640459/UzJETzNp) of this application for the detail features.
@@ -77,6 +77,6 @@ This application provides some instructions to access the features for each role
 ## Project Status
 This project still in progress by the WAFO team. Some features may be available once the team has finish creating the program.
 
-## API Reference
+
 
 
