@@ -66,7 +66,7 @@ due to too much production or not selling, which only increases the amount of fo
 
 
 ## Installation
-The programming language used to run the project is Ruby on Rails on Windows 10 version ... with PostgreSQL as the database. The step of installation of Ruby on Rails and setting up PostgreSQL on windows can be seen at [gorails.com](https://gorails.com/setup/windows/10).
+The programming language used to run the project is Ruby on Rails on Windows 10 version 7.0.3 with PostgreSQL as the database. The step of installation of Ruby on Rails and setting up PostgreSQL on windows can be seen at [gorails.com](https://gorails.com/setup/windows/10).
 
 ## Usage
 This application provides some instructions to access the features for each roles; admin, customer, and merchant. User may refer to the [API documentation](https://documenter.getpostman.com/view/21640459/UzJETzNp) of this application for the detail features.
