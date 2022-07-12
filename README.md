@@ -91,6 +91,9 @@ rails s
 ## Usage
 This application provides some instructions to access the features for each roles; admin, customer, and merchant. User may refer to the [API documentation](https://documenter.getpostman.com/view/21640459/UzJETzNp) of this application for the detail features.
 
+### Entity Relationship Diagram
+![wafo erd](https://user-images.githubusercontent.com/106664987/178392358-78c82349-b35d-406c-b95a-5868e70c1b3c.png)
+
 ## Project Logo
 ![logo wafo](https://user-images.githubusercontent.com/106664987/176475530-0538d94a-65dc-4bc9-a6dd-f98fe39997bc.jpeg)
 
