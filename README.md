@@ -79,9 +79,17 @@ Install all required bundle:
 ```
 bundle install
 ```
+Create databese:
+```
+rails db:migrate
+```
 Run the migration:
 ```
-rake db:migrate
+rails db:migrate
+```
+Input initial data to databese:
+```
+rails db:seed
 ```
 Run the server:
 ``` 
